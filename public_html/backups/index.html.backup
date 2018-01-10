@@ -1,0 +1,35 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title> Testing Site </title>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize.css-->
+<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen.projection"/>
+
+<!-- Let browser know website is optimized for mobile-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+<body>
+	<h1>NOAH IS A FUNGI</h1>
+	<h3>Smaller header 1</h3>
+	<p>Hello there's stuff you can click on. This is an anchor element that brings you to <a href="http://google.com">Google,</a> a powerful site. </p>
+
+<a href="https://www.google.com/maps">Use Google Maps</a>
+<!-- This is a comment. The above is an anchor element. A fundamental skill in html. -->
+
+<img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-1/bikes1.jpg"/>
+
+<!-- Here's how you insert an image ^^^ -->
+
+<!-- Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+</body>
+</html>

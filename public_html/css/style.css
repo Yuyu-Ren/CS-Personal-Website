@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/*
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+*/
+
+p {
+    line-height: 2rem;
+}
+
+
+/*
+.button-collapse {
+    color: aqua;
+}*/
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+@media (min-width: 601px) {
+    .brand-logo {
+        margin-top: 4px;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.darkishBlack {
+    background-color: #191114;
+}
+
+
+/* Color of the user hovering over text */
+
+nav ul li:hover {
+    background-color: #479e60;
+}
+
+
+/* This takes care of the navigation bar. It pertains to line 32 of index.html with the container call. If you want a dark bar, just remove this and the line calling it in the file. */
+
+.containerNAV {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgba(25, 17, 20, 0.55);
+}
+
+/* Color of background and text */
